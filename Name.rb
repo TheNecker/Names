@@ -1,12 +1,16 @@
-p "My first Name is, and my last name is."
-X = 0
+1.times do
+	
 
-	3.times do 
-if X == 1 
-	p "Christopher"
-	elsif X == 2
-		p "Jacob"
-	else X == 3 
-		p "Phelps"
-	end 
+	def firstname
+		print "Hello! my first name is Christopher..."
 end 
+	def middlename
+		print "...My middle name is jacob..."
+end 
+	def lastname
+		print "...and my last name is Phelps!"
+end 
+puts firstname
+puts middlename 
+puts lastname
+end
